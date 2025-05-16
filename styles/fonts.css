@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  src: url('../fonts/Montserrat-Regular.woff2');
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  src: url('../fonts/Montserrat-Bold.woff2');
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 500;
+  src: url('../fonts/Montserrat-Medium.woff2');
+}
+
+@font-face {
+  font-family: Inter;
+  font-weight: 400;
+  src: url('../fonts/Inter-Regular.woff2');
+}
+
+@font-face {
+  font-family: Inter;
+  font-weight: 700;
+  src: url('../fonts/Inter-SemiBold.woff2');
+}
+
+@font-face {
+  font-family: Inter;
+  font-weight: 500;
+  src: url('../fonts/Inter-Medium.woff2');
+}
+
+@font-face {
+  font-family: DMSans;
+  font-weight: 400;
+  src: url('../fonts/DMSans-Regular.woff2');
+}
+
+@font-face {
+  font-family: DMSans;
+  font-weight: 700;
+  src: url('../fonts/DMSans-Bold.woff2');
+}
+
+@font-face {
+  font-family: DMSans;
+  font-weight: 500;
+  src: url('../fonts/DMSans-Medium.woff2');
+}

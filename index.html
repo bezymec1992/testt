@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FortVPN</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div class="body-overlay"></div>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__wrapper">
+          <a href="/" class="header__logo logo">
+            <img src="imgs/logo.svg" alt="FortVPN Logo" class="logo__image" />
+            <span class="logo__title">FortVPN</span>
+          </a>
+
+          <div class="header__media-wrap">
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="#home" class="header__nav-link">Головна</a>
+                </li>
+                <li class="header__nav-item active-page">
+                  <a href="#tariffs" class="header__nav-link">Тарифи</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#about" class="header__nav-link">Про нас</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="header__actions">
+              <div class="theme">
+                <button class="theme__button" aria-label="Toggle theme">
+                  <span class="theme__toggle-indicator"></span>
+                  <img
+                    src="imgs/sun.svg"
+                    alt="Light theme"
+                    class="theme__icon theme__icon--light"
+                  />
+                  <img src="imgs/moon.svg" alt="Dark theme" class="theme__icon theme__icon--dark" />
+                </button>
+                <span class="theme-name">Світла тема</span>
+              </div>
+
+              <div class="header__lang lang-switcher">
+                <button class="lang-switcher__toggle" aria-haspopup="true" aria-expanded="false">
+                  <svg class="lang-icon" aria-hidden="true" width="23" height="23">
+                    <use xlink:href="imgs/sprite.svg#lang-icon"></use>
+                  </svg>
+                </button>
+                <ul class="lang-switcher__menu">
+                  <li class="lang-switcher__item">
+                    <a href="#" lang="uk" class="lang-switcher__link">Українська</a>
+                  </li>
+                  <li class="lang-switcher__item">
+                    <a href="#" lang="ru" class="lang-switcher__link">Русский</a>
+                  </li>
+                  <li class="lang-switcher__item">
+                    <a href="#" lang="en" class="lang-switcher__link">English</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="header__buttons">
+                <a href="#login" class="button button--primary">Увійти</a>
+                <a href="#signup" class="button button--secondary">Зареєструватись</a>
+              </div>
+            </div>
+          </div>
+
+          <button class="burger-menu" aria-label="Open navigation menu" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <script src="script.js"></script>
+  </body>
+</html>
